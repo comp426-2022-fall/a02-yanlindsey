@@ -20,7 +20,7 @@ if(args.h) {
 
 let timezone = moment.tz.guess()
 
-let latitude = '0';
+let latitude = '39.92';
 if(args.n) {
 	latitude = args.n
 }
@@ -28,7 +28,7 @@ if(args.s) {
 	latitude = args.s
 }
 
-let longitude = '0'
+let longitude = '-79'
 if(args.e) {
 	longitude = args.e
 }
